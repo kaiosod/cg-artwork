@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+body {
+  background-color: rgb(255, 169, 108);
+}
+
+.art {
+  width: 45%;
+  margin: 10px;
+}
