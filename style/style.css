@@ -5,17 +5,85 @@
 }
 
 h1 {
-  padding-top: 20px;
+  /* padding-top: 20px; */
   font-size: 50px;
   text-align: center;
+  color:rgb(224, 224, 224)
 }
 
 header {
-  padding-bottom: 80px;
+  padding-bottom: 20px;
 }
 
 body {
-  background-color: rgb(255, 224, 202);
+  background-color: rgb(36, 36, 36);
+}
+
+/*intro*/
+
+main {
+  margin-bottom: 90px;
+}
+
+.principal {
+  background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%) ,url("../img/confira-agora-as-15-obras-de-arte-mais-conhecidas-do-mundo-9.jpg");
+  height: 500px;
+  background-size: cover;
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+}
+
+.titulo-principal {
+  font-size: 35px;
+  margin-bottom: 1px;
+}
+
+#descricao {
+  color: rgba(212, 212, 212, 0.507);
+}
+
+.apresentacao {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.container {
+  width: 500px;
+  margin-left: 50px;
+}
+
+.botao {
+  margin-right: 6px;
+  padding: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  font-weight: bold;
+  font-size: 16px;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+#botao2 {
+  background-color: rgba(128, 128, 128, 0.514);
+  color: white;
+}
+
+.botao:hover {
+  background-color: lightgrey;
+}
+
+#botao2:hover {
+  background-color: var(--vermelho);
+}
+
+.botao > i {
+  margin-right: 5px;
 }
 
 table {
